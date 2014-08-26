@@ -26,6 +26,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
+    autoprefixer-rails (3.0.0.20140821)
+      execjs
     better_errors (2.0.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -165,6 +167,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.0.3.0)
