@@ -1,4 +1,4 @@
 harbor
 ======
 
-mc vc, see?
+see re# for version control instructions
