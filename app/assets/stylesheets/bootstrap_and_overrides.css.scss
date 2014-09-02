@@ -3,17 +3,33 @@
 $navbar-default-link-color: white;
 $navbar-default-link-hover-color: white;
 
-$baseFontFamily: Museo, sans-serif;
+
+.nav{
+  font-family: 'GoLongRegular','Avant Garde', Avantgarde, sans-serif;
+}
+.navbar-default {
+    background-color: grey;
+    border-color: grey;
+}
+
+.navbar-fixed-bottom ul{
+   li { 
+    a { 
+      color: white; 
+    }
+  }
+}
+
+.navbar-default .navbar-nav { 
+  li { 
+   
+    a {
+    color: white;
+    }
+  }
+}
 
 .navbar-fixed-bottom{
   background-color: black;
 
-}
-
-.navbar-fixed-bottom ul{
-  li { color: white;
-    a { color: white; 
-    }
-  }
-   color: white;
 }
