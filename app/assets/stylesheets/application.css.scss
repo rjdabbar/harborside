@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+}
+
+.page-wrap:after {
+  display: block;
+}

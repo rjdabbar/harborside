@@ -11,3 +11,13 @@
  *= require_self
  *= require_tree .
  */
+
+
+ .footer-nav {
+  display: block;
+ }
+
+/*body { 
+  background-image: url("explore-1-R9.png");
+}
+*/

@@ -6,31 +6,55 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
 <nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
       </button>
       <a class="navbar-brand" href="#">Logo</a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ><a href="#">Explore</a></li>
-        <li ><a href="#">Happening</a></li>
-        <li ><a href="#">Harborside</a></li>
-        <li><a href="#">Live</a></li>
-        <li><a href="#">Arrive</a></li>
+        <li ><a href="#"><%= link_to "Explore", explore_index_path %></a></li>
+        <li ><a href="#"><%= link_to "Live Now", live_index_path %></a></li>
+        <li ><a href="#"><%= link_to "Arrive Now", arrive_index_path %></a></li>
+        <li><a href="#"><%= link_to "Lease Now", lease_index_path %></a></li>
+        <li><a href="#"><%= link_to "Explore", explore_index_path %></a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
+<body>
 
-<%= yield %>
+
+<div class="page-wrap">
+  <%= yield %>
+</div>
 
 </body>
+
+<div class="footer">
+  <nav class="navbar-default">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li ><a href="#">Harborside Now</a></li>
+            <ul class="nav navbar-nav footer-nav">
+              <li class="footer-nav"><a href="#">Lease Now</a></li>
+              <li class="footer-nav"><a href="#">Lease Now</a></li>
+              <li class="footer-nav"><a href="#">Lease Now</a></li>
+              <li class="footer-nav"><a href="#">Lease Now</a></li>
+              <li class="footer-nav"><a href="#">Lease Now</a></li>
+            </ul>
+          <li ><a href="#">Live Now</a></li>
+          <li><a href="#">Arrive Now</a></li>
+          <li><a href="#">Explore Now</a></li>
+          <li><a href="#">Contact Now</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
 </html>

@@ -1,0 +1,2 @@
+module LeaseHelper
+end
