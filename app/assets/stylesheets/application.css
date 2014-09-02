@@ -12,11 +12,32 @@
  *= require_tree .
  */
 
+.navbar-right {
+  padding-right: 25px;
+}
 
- .footer-nav {
-  display: block;
- }
+ul.footer {
+  list-style-type: none;
+  padding: 15px;
+}
 
+ul.footer li a {
+  color: #777;
+}
+
+ul.footer li a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+ul.social-nav li a{
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+li.social {
+  padding-top: 15px;
+}
 /*body { 
   background-image: url("explore-1-R9.png");
 }

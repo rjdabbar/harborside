@@ -1,1 +1,19 @@
 @import 'bootstrap';
+
+$navbar-default-link-color: white;
+$navbar-default-link-hover-color: white;
+
+$baseFontFamily: Museo, sans-serif;
+
+.navbar-fixed-bottom{
+  background-color: black;
+
+}
+
+.navbar-fixed-bottom ul{
+  li { color: white;
+    a { color: white; 
+    }
+  }
+   color: white;
+}

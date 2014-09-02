@@ -15,4 +15,8 @@ class ExploreController < ApplicationController
   def press
   end
   
+
+  def food
+  end
+  
 end
