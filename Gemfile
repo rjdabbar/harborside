@@ -27,6 +27,7 @@ group :development do
   gem "binding_of_caller"
   gem 'guard-livereload'
   gem 'sqlite3'
+  gem 'capistrano'
 end
 
 group :production do

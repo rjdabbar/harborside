@@ -4,27 +4,32 @@ $navbar-default-link-color: white;
 $navbar-default-link-hover-color: white;
 
 
-.nav{
-  font-family: 'GoLongRegular','Avant Garde', Avantgarde, sans-serif;
-}
+
 .navbar-default {
     background-color: grey;
     border-color: grey;
+}
+
+.navbar-default ul.dropdown-menu{
+    background-color: grey;
+    border-color: white;
 }
 
 .navbar-fixed-bottom ul{
    li { 
     a { 
       color: white; 
+      font-family: "GoLongRegular";
     }
   }
 }
 
 .navbar-default .navbar-nav { 
   li { 
-   
+
     a {
     color: white;
+    font-family: "GoLongRegular";
     }
   }
 }
@@ -33,3 +38,41 @@ $navbar-default-link-hover-color: white;
   background-color: black;
 
 }
+
+
+
+.navbar-nav {
+  li.top-nav {
+    a {
+     padding: 0;
+     margin-top: 75px;
+     margin-left: 15px;
+    }
+  }
+
+}
+
+.dropdown-menu {
+  li {
+    a {
+      margin: 0;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

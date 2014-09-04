@@ -15,10 +15,18 @@
 
 @font-face {
     font-family: "GoLongRegular";
-    font-style: normal;
-    font-weight: normal;
-    src: url("fonts/golong-webfont.eot?iefix") format("eot"), url("fonts/golong-webfont.woff") format("woff"), url("fonts/golong-webfont.ttf") format("truetype"), url("fonts/golong-webfont.svg") format("svg");
+    src: url("golong-webfont.eot") format("eot"), 
+         url("golong-webfont.woff") format("woff"), 
+         url("golong-webfont.ttf") format("truetype"), 
+         url("golong-webfont.svg") format("svg");
 }
+
+@font-face {
+    font-family: "Museo";
+    src: url("fonts/golong-webfont.eot") format("eot"), 
+        
+}
+
 
 
 .navbar-right {
@@ -32,6 +40,8 @@ ul.footer {
 
 ul.footer li a {
   color: #777;
+  font-family: "GoLongRegular";
+  
 }
 
 ul.footer li a:hover {
@@ -47,4 +57,9 @@ ul.social-nav li a{
 li.social {
   padding-top: 15px;
   color: white;
+}
+
+.dropdown-menu-item a {
+  padding: 0;
+  margin: 0;
 }
